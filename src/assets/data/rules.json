@@ -1,0 +1,11 @@
+{
+  "side": "Jedi",
+  "rules": [
+    "You should shoot (click) all enemies of a Jedi",
+    "Based on the difficulty, the game ends when you reached the number of possible fails"
+  ],
+  "rules": [
+    "As a Sith you should shoot (click) everyone, expect other Siths.",
+    "The game ends if you shoot another Sith"
+  ]
+}
