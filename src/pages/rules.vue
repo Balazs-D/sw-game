@@ -1,15 +1,22 @@
 <template>
-  <div
-    class="grid grid-cols-2 gap-4 text-white mx-auto w-3/5 bg-black/70 rounded"
-  >
-    <div
-      v-for="d in data"
-      :key="d.side"
-      class="mx-auto font-classic text-2xl flex flex-col p-8"
-    >
-      <div class="mb-12">{{ d.side }}</div>
-      <div v-for="rule in d.rules" :key="rule" class="font-anakin my-4 text-xl">
-        {{ rule }}
+  <div class="flex flex-col bg-black/70 rounded text-white mx-auto w-3/5">
+    <div>Instructions</div>
+    <div></div>
+
+    <div class="grid grid-cols-2 gap-4">
+      <div
+        v-for="d in data"
+        :key="d.side"
+        class="mx-auto font-classic text-2xl flex flex-col p-8"
+      >
+        <div class="mb-12">{{ d.side }}</div>
+        <div
+          v-for="rule in d.rules"
+          :key="rule"
+          class="font-anakin my-4 text-xl"
+        >
+          {{ rule }}
+        </div>
       </div>
     </div>
   </div>
