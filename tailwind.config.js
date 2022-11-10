@@ -16,6 +16,7 @@ module.exports = {
         jedi: "url('~/assets/images/jedi.jpeg')",
         sith: "url('~/assets/images/sith.jpeg')",
         fight: "url('~/assets/images/fight.jpeg')",
+        yoda: "url('~/assets/images/yoda.png')",
       },
       colors: {
         ocean: '#16c0b0',
